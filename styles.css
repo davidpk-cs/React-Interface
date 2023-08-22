@@ -1,0 +1,387 @@
+/* SEE THIS FOR BOOTSTRAP LIB: https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+
+.greyBackground {
+    background-color: #24212b;
+}
+
+/*Home Page Styles*/
+
+#homePageTitleHeader{
+    color: navy;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 5px;
+}
+#homePanelManager{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.homePanel{
+    width: 200px;
+    height: 220px;
+    background-color: rgb(160, 214, 206);
+    border: 2px  solid blue;
+    margin: 15px;
+
+}
+.homePanelTitle{
+    text-align: center;
+    color:rgba(3, 66, 3, 0.856);
+}
+.homePanelDisplay{
+    border:2px solid darkblue;
+    width: 186px;
+    height: 170px;
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homePanelDisplayText{
+
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+}
+
+.weatherPanel{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(160, 214, 206);
+    border: 2px  solid blue;
+    margin: 15px;
+
+}
+
+.weatherPanelDisplay{
+    border:2px solid darkblue;
+    width: 186px;
+    height: 200px;
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gardenPanel{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(160, 214, 206);
+    border: 2px  solid blue;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gardenPanelDisplay{
+    border:2px solid darkblue;
+    width: 186px;
+    height: 200px;
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hourlyForecast{
+    list-style-type: none;
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+}
+
+/*Schedule panel styles*/
+
+.bttn-cancel{
+    background-color: rgb(219, 44, 44);
+    color: white;
+    margin-left: 7px;
+}
+.bttn-cancel:hover{
+    background-color: rgb(205, 29, 29);
+    
+}
+.bttn-cancel:active{
+    background-color: rgb(195, 19, 19);
+    
+}
+
+/*temp page styles*/
+.room {
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    margin-top: 11px; 
+}
+
+.schTempBox{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.to-label{
+    margin-bottom: 10px;
+}
+
+.add-rm{
+    background-color: rgb(122, 238, 147);
+}
+.add-rm:hover{
+    background-color: rgb(107, 223, 132);
+    cursor:pointer;
+}
+.add-rm:active{
+    background-color: rgb(97, 213, 122);
+}
+#add-rm-txt{
+    margin-top:40px;
+}
+
+.bttn-misc{
+    margin-bottom: 8px;
+}
+
+.home-btn{
+    width: 80px;
+    height: 80px;
+    
+    background-image: url(house.PNG);
+    background-size: cover;
+    border-style: none;
+}
+
+.tmp-inc,.tmp-dec{
+    font-size: 1.10em;
+    size: 1em;
+    font-weight: 999;
+    
+}
+
+.subsq-row{
+    margin-top: 20px;
+}
+
+.tmp-inc{
+    background-color: rgb(255, 105, 105);
+    margin-bottom: 8px;
+    margin-right: 5px;
+    
+
+}
+.tmp-inc:hover{
+    background-color: rgb(240, 90, 90);
+}
+.tmp-inc:active{
+    background-color: rgb(230, 80, 80);
+}
+
+.tmp-dec{
+    background-color: rgb(107, 176, 255);
+    margin-left: 5px;
+    padding-left: 0.67rem;
+    padding-right: 0.67rem; 
+
+}
+.tmp-dec:hover{
+    background-color: rgb(92, 161, 240);
+}
+.tmp-dec:active{
+    background-color: rgb(82, 151, 230);
+}
+
+
+/*Fridge Page Styles */
+
+.fridgeTopBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+    
+
+}
+
+#filterStatus{
+
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: space-evenly;
+    color: blue;
+    
+}
+
+.statusCircle{
+
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.iceBox{
+    height: 250px;
+    width:600px;
+    display:flex;
+    align-items: center;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    user-select: none;
+}
+
+.iceBoxSides {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.iceBoxInfo{
+    height: 200px;
+    width: 300px;
+    border: 1px solid aquamarine;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.iceBoxMinus{
+    border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    border-left: 1px solid cyan;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    color: red;
+    padding-bottom: 25px;
+}
+
+.iceBoxPlus{
+    border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    border-right: 1px solid cyan;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    color: lightgreen;
+    padding-bottom: 25px;
+}
+
+.iceBoxType{
+    font-size: 25px;
+    padding-left: 67px;
+    padding-right: 67px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color:rgb(0, 128, 128);
+
+}
+
+.iceBoxTemperatureUnit{
+
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0px;
+    background-color: darkcyan;
+    color:aliceblue;
+    border-color: 2px darkcyan;
+    
+
+}
+
+.iceBoxTemperature{
+    margin-top: 0px;
+    font-size: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: darkcyan;
+}
+
+.iceBoxManager{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Garden styles*/
+#gardenSch{
+    margin-top: 20px;
+}
+
+/*Device styles*/
+#devicePanelText{   
+    text-align: center;
+    color:rgba(3, 66, 3, 0.856);
+    font-weight: bold;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
